@@ -763,3 +763,17 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_label_OSMChainage181126_3_eval_expression(context) {
+    // chainage / 1000
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('chainage')  / 1000);
+    } else {
+        return (feature.get('chainage')  / 1000);
+    }
+}
