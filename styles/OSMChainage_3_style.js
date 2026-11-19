@@ -19,8 +19,8 @@ var style_OSMChainage_3 = function(feature, resolution){
     var overflow = false;
     var repeat = 0;
     var placement = 'line';
-    if (feature.get("label") !== null) {
-        labelText = String(feature.get("label"));
+    if (exp_label_OSMChainage_3_eval_expression(context) !== null) {
+        labelText = String(exp_label_OSMChainage_3_eval_expression(context));
     }
     var style = [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
