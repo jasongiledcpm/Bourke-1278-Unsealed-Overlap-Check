@@ -23,7 +23,7 @@ var style_1211Overlap_7 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(32,0,169,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 9.347999999999999}),
+        stroke: new ol.style.Stroke({color: 'rgba(32,0,169,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 10.867999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)

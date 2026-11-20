@@ -23,8 +23,8 @@ var style_PhotoEvidence_8 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 5.2 + size, points: 4,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(11,65,5,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(84,176,74,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 6.0 + size, points: 4,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(11,65,5,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(63,209,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
